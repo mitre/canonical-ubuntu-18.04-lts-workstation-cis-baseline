@@ -27,7 +27,7 @@ following command can be run manually for each partition:
     \t -xdev -nogroup
     ```
   "
-  desc  "fix", "Locate files that are owned by users or groups not listed in
+  desc "fix", "Locate files that are owned by users or groups not listed in
 the system configuration files, and reset the ownership of these files to some
 active user on the system as appropriate."
   impact 0.7
@@ -43,4 +43,3 @@ active user on the system as appropriate."
   tag cis_controls: ["13.2", "Rev_7"]
   tag cis_rid: "6.1.12"
 end
-

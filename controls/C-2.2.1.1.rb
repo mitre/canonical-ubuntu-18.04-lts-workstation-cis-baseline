@@ -38,7 +38,7 @@ information:
 consult your virtualization software documentation and verify that host based
 synchronization is in use.
   "
-  desc  "fix", "
+  desc "fix", "
     On systems where host based time synchronization is not available,
 configure systemd-timesyncd. If \"full featured\" and/or encrypted time
 synchronization is required, install chrony or NTP.
@@ -72,4 +72,3 @@ synchronization.
   tag cis_controls: ["6.1", "Rev_7"]
   tag cis_rid: "2.2.1.1"
 end
-

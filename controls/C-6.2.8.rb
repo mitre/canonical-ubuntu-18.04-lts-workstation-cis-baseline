@@ -39,7 +39,7 @@ user $user\"
     done
     ```
   "
-  desc  "fix", "Making global modifications to user home directories without
+  desc "fix", "Making global modifications to user home directories without
 alerting the user community can result in unexpected outages and unhappy users.
 Therefore, it is recommended that a monitoring policy be established to report
 user file permissions and determine the action to be taken in accordance with
@@ -57,4 +57,3 @@ site policy."
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "6.2.8"
 end
-

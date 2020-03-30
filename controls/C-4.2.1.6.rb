@@ -67,4 +67,3 @@ file and un-comment or add the following lines:
   tag cis_controls: ["9.2", "Rev_7"]
   tag cis_rid: "4.2.1.6"
 end
-

@@ -56,4 +56,3 @@ day):
   tag cis_controls: ["16", "4.4", "Rev_6"]
   tag cis_rid: "5.4.1.2"
 end
-

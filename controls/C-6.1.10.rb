@@ -29,7 +29,7 @@ following command can be run manually for each partition:
     \t -xdev -type f -perm -0002
     ```
   "
-  desc  "fix", "Removing write access for the \"other\" category ( `chmod o-w `
+  desc "fix", "Removing write access for the \"other\" category ( `chmod o-w `
 ) is advisable, but always consult relevant vendor documentation to avoid
 breaking any application dependencies on a given file."
   impact 0.7
@@ -45,4 +45,3 @@ breaking any application dependencies on a given file."
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "6.1.10"
 end
-

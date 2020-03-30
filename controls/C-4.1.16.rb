@@ -114,4 +114,3 @@ directory ending in `.rules`
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "4.1.16"
 end
-

@@ -17,7 +17,7 @@ command and verify that the log files are logging information:
     # ls -l /var/log/
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the following lines in the `/etc/rsyslog.conf` and
 `/etc/rsyslog.d/*.conf` files as appropriate for your environment:
 
@@ -59,4 +59,3 @@ command and verify that the log files are logging information:
   tag cis_controls: ["6.2", "6.3", "Rev_7"]
   tag cis_rid: "4.2.1.3"
 end
-

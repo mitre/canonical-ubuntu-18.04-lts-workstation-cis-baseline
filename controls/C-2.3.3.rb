@@ -15,7 +15,7 @@ needed information:
     dpkg -s talk
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Uninstall `talk`:
 
     ```
@@ -35,4 +35,3 @@ needed information:
   tag cis_controls: ["2.6", "Rev_7"]
   tag cis_rid: "2.3.3"
 end
-

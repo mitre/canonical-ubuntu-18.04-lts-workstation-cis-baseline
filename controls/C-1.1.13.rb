@@ -34,4 +34,3 @@ configure `/etc/fstab` as appropriate.
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.1.13"
 end
-

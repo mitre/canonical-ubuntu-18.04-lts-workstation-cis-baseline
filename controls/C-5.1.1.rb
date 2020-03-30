@@ -18,7 +18,7 @@ following commands to verify `cron` is enabled:
 
     Verify result is \"enabled\".
   "
-  desc  "fix", "
+  desc "fix", "
     Based on your system configuration, run the appropriate one of the
 following commands to enable `cron`:
 
@@ -39,4 +39,3 @@ following commands to enable `cron`:
   tag cis_controls: ["6", "Rev_7"]
   tag cis_rid: "5.1.1"
 end
-

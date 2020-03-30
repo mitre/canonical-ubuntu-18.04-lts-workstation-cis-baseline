@@ -40,4 +40,3 @@ acceptable usage than to black list unacceptable usage."
   tag cis_controls: ["9.4", "Rev_7"]
   tag cis_rid: "3.5.4.1.1"
 end
-

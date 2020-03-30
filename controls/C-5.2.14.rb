@@ -37,7 +37,7 @@ the listed weak MAC algorithms:
     umac-128-etm@openssh.com
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file and add/modify the MACs line to
 contain a comma separated list of the site approved MACs
 
@@ -61,4 +61,3 @@ hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512,hmac-s
   tag cis_controls: ["14.4", "16.5", "Rev_7"]
   tag cis_rid: "5.2.14"
 end
-

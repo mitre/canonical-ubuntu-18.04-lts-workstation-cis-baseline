@@ -24,7 +24,7 @@ is set to an appropriate size for your organization
 
     **Recommended that this value be `8192` or larger.**
   "
-  desc  "fix", "
+  desc "fix", "
     Edit /etc/default/grub and add `audit_backlog_limit=` to GRUB_CMDLINE_LINUX:
 
     **Example:**
@@ -52,4 +52,3 @@ is set to an appropriate size for your organization
   tag cis_controls: ["6.2", "6.3", "Rev_7"]
   tag cis_rid: "4.1.1.4"
 end
-

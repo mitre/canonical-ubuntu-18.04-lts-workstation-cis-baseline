@@ -15,7 +15,7 @@ more restrictive:
     # grep ^\\$FileCreateMode /etc/rsyslog.conf /etc/rsyslog.d/*.conf
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/rsyslog.conf` and `/etc/rsyslog.d/*.conf` files and set
 `$FileCreateMode` to `0640` or more restrictive:
 
@@ -36,4 +36,3 @@ more restrictive:
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "4.2.1.4"
 end
-

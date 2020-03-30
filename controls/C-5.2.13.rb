@@ -58,7 +58,7 @@ the listed weak ciphers
     rijndael-cbc@lysator.liu.se
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file add/modify the `Ciphers` line to
 contain a comma separated list of the site approved ciphers
 
@@ -82,4 +82,3 @@ chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes2
   tag cis_controls: ["14.4", "Rev_7"]
   tag cis_rid: "5.2.13"
 end
-

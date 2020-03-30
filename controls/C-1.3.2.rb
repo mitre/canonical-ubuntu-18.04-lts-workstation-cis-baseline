@@ -19,7 +19,7 @@ has finished executing."
     Defaults use_pty
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     edit the file `/etc/sudoers` or a file in `/etc/sudoers.d/` and add the
 following line:
 
@@ -40,4 +40,3 @@ following line:
   tag cis_controls: ["4.3", "Rev_7"]
   tag cis_rid: "1.3.2"
 end
-

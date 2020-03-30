@@ -26,7 +26,7 @@ may perform unintended actions."
     done
     ```
   "
-  desc  "fix", "Making global modifications to users' files without alerting
+  desc "fix", "Making global modifications to users' files without alerting
 the user community can result in unexpected outages and unhappy users.
 Therefore, it is recommended that a monitoring policy be established to report
 user `.forward` files and determine the action to be taken in accordance with
@@ -44,4 +44,3 @@ site policy."
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "6.2.11"
 end
-

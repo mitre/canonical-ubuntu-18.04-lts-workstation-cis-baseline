@@ -126,4 +126,3 @@ options for `pam_pwquality.so` and to conform to site policy:
   tag cis_controls: ["4.4", "Rev_7"]
   tag cis_rid: "5.3.1"
 end
-

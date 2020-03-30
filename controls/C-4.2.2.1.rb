@@ -19,7 +19,7 @@ syslog
     ForwardToSyslog=yes
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/systemd/journald.conf` file and add the following line:
 
     ```
@@ -39,4 +39,3 @@ syslog
   tag cis_controls: ["6.5", "Rev_7"]
   tag cis_rid: "4.2.2.1"
 end
-

@@ -18,7 +18,7 @@ could alert administrators of an attempt to make unauthorized audit changes."
     -e 2
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create the file `/etc/audit/rules.d/99-finalize.rules` and add the
 line
 
@@ -41,4 +41,3 @@ line
   tag cis_controls: ["6.2", "6.3", "Rev_7"]
   tag cis_rid: "4.1.17"
 end
-

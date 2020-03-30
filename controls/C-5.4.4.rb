@@ -31,7 +31,7 @@ more restrictive.
     umask 027
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/bash.bashrc`, `/etc/profile` and `/etc/profile.d/*.sh` files
 (and the appropriate files for any other shell supported on your system) and
 add or edit any umask parameters as follows:
@@ -53,4 +53,3 @@ add or edit any umask parameters as follows:
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "5.4.4"
 end
-

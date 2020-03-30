@@ -18,7 +18,7 @@ accountability and to ensure appropriate access protections."
     done
     ```
   "
-  desc  "fix", "Based on the results of the audit script, establish unique GIDs
+  desc "fix", "Based on the results of the audit script, establish unique GIDs
 and review all files owned by the shared GID to determine which group they are
 supposed to belong to."
   impact 0.7
@@ -34,4 +34,3 @@ supposed to belong to."
   tag cis_controls: ["16", "Rev_7"]
   tag cis_rid: "6.2.17"
 end
-

@@ -16,7 +16,7 @@ when authenticating with ssh."
     IgnoreRhosts yes
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -36,4 +36,3 @@ when authenticating with ssh."
   tag cis_controls: ["9.2", "Rev_7"]
   tag cis_rid: "5.2.8"
 end
-

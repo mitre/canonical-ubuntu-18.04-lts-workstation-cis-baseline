@@ -24,7 +24,7 @@ introduce malware."
 
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create a file in the /etc/modprobe.d/ directory ending in .conf
 
     Example: vi /etc/modprobe.d/usb_storage.conf
@@ -53,4 +53,3 @@ introduce malware."
   tag cis_controls: ["8.4", "8.5", "Rev_7"]
   tag cis_rid: "1.1.23"
 end
-

@@ -17,7 +17,7 @@ needed information:
     dpkg -s rsh-client
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Uninstall `rsh`:
 
     ```
@@ -37,4 +37,3 @@ needed information:
   tag cis_controls: ["4.5", "Rev_7"]
   tag cis_rid: "2.3.2"
 end
-

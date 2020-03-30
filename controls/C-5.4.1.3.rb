@@ -58,4 +58,3 @@ days):
   tag cis_controls: ["4.4", "Rev_7"]
   tag cis_rid: "5.4.1.3"
 end
-

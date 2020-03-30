@@ -45,4 +45,3 @@ interfaces in your network configuration.
   tag cis_controls: ["15.4", "15.5", "Rev_7"]
   tag cis_rid: "3.6"
 end
-

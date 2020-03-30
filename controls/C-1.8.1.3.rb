@@ -36,7 +36,7 @@ logged in."
 's/\"//g'))\" /etc/issue.net
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/issue.net` file with the appropriate contents according to
 your site policy, remove any instances of `\\m` , `\
 ` , `\\s` , `\\v` or references to the `OS platform`
@@ -59,4 +59,3 @@ reported.\" > /etc/issue.net
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.8.1.3"
 end
-

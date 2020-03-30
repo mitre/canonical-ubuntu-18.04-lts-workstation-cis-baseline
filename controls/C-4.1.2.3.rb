@@ -50,4 +50,3 @@ availability."
   tag cis_controls: ["6.4", "Rev_7"]
   tag cis_rid: "4.1.2.3"
 end
-

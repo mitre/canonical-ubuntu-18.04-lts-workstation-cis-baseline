@@ -35,7 +35,7 @@ activated NX/XD protection.
 
     Nothing should be returned
   "
-  desc  "fix", "
+  desc "fix", "
     On 32 bit systems install a kernel with PAE support, no installation is
 required on 64 bit systems:
 
@@ -57,4 +57,3 @@ the system.
   tag cis_controls: ["8.3", "Rev_7"]
   tag cis_rid: "1.6.1"
 end
-

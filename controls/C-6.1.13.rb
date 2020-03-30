@@ -29,7 +29,7 @@ following command can be run manually for each partition:
     \t -xdev -type f -perm -4000
     ```
   "
-  desc  "fix", "Ensure that no rogue SUID programs have been introduced into
+  desc "fix", "Ensure that no rogue SUID programs have been introduced into
 the system. Review the files returned by the action in the Audit section and
 confirm the integrity of these binaries."
   impact 0.7
@@ -45,4 +45,3 @@ confirm the integrity of these binaries."
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "6.1.13"
 end
-

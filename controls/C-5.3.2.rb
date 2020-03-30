@@ -41,7 +41,7 @@ configured with the `pam_tally2.so` modules found in `/etc/pam.d/common-auth`.
     account required pam_tally2.so
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/pam.d/common-auth` file and add the auth line below:
 
     ```
@@ -74,4 +74,3 @@ user.
   tag cis_controls: ["16.7", "Rev_7"]
   tag cis_rid: "5.3.2"
 end
-

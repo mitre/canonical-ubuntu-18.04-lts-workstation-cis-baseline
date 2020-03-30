@@ -116,4 +116,3 @@ auid>=1000 -F auid!=4294967295 -k delete
   tag cis_controls: ["13", "Rev_7"]
   tag cis_rid: "4.1.13"
 end
-

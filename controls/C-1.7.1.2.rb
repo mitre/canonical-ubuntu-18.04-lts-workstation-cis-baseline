@@ -24,7 +24,7 @@ grep -v '/boot/memtest86+.bin'
     Nothing should be returned
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     edit `/etc/default/grub` and add the appermor=1 and security=apparmor
 parameters to the GRUB_CMDLINE_LINUX= line
 
@@ -51,4 +51,3 @@ parameters to the GRUB_CMDLINE_LINUX= line
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "1.7.1.2"
 end
-

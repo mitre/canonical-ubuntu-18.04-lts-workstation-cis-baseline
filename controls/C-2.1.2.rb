@@ -33,4 +33,3 @@ recommended that the daemon be removed."
   tag cis_controls: ["9.2", "Rev_7"]
   tag cis_rid: "2.1.2"
 end
-

@@ -42,7 +42,7 @@ system partition has been created for `/tmp`
     enabled
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Configure `/etc/fstab` as appropriate.
 
     **Example:**
@@ -84,4 +84,3 @@ system partition has been created for `/tmp`
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.1.2"
 end
-

@@ -17,7 +17,7 @@ disk:
     # Storage=persistent
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/systemd/journald.conf` file and add the following line:
 
     ```
@@ -37,4 +37,3 @@ disk:
   tag cis_controls: ["6.2", "6.3", "Rev_7"]
   tag cis_rid: "4.2.2.3"
 end
-

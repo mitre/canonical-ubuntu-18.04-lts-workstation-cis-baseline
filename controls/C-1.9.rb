@@ -49,4 +49,3 @@ policy guidance on applying updates and patches:
   tag cis_controls: ["3.4", "3.5", "Rev_7"]
   tag cis_rid: "1.9"
 end
-

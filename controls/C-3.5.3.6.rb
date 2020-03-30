@@ -67,4 +67,3 @@ output hooks to implement a default DROP policy:
   tag cis_controls: ["9.4", "Rev_7"]
   tag cis_rid: "3.5.3.6"
 end
-

@@ -32,7 +32,7 @@ difficult to identify important security information."
     loglevel INFO
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -58,4 +58,3 @@ difficult to identify important security information."
   tag cis_controls: ["6.2", "6.3", "Rev_7"]
   tag cis_rid: "5.2.5"
 end
-

@@ -31,7 +31,7 @@ established connections match site policy:
     # grep \"^\\s*linux\" /boot/grub/grub.cfg | grep -v ipv6.disable=1
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Configure iptables in accordance with site policy. The following commands
 will implement a policy to allow all outbound connections and all established
 connections:
@@ -58,4 +58,3 @@ connections:
   tag cis_controls: ["9.4", "9.1", "Rev_7"]
   tag cis_rid: "3.5.4.2.3"
 end
-

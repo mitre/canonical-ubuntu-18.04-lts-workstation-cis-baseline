@@ -17,7 +17,7 @@ programs)"
     PermitUserEnvironment no
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -37,4 +37,3 @@ programs)"
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "5.2.12"
 end
-

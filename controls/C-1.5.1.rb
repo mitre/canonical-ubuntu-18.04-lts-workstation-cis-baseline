@@ -44,4 +44,3 @@ in security upon boot and be able to exploit them."
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.5.1"
 end
-

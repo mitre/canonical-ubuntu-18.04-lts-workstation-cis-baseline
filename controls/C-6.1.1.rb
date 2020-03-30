@@ -54,7 +54,7 @@ be reviewed later.
 
     ```
   "
-  desc  "fix", "Correct any discrepancies found and rerun the audit until
+  desc "fix", "Correct any discrepancies found and rerun the audit until
 output is clean or risk is mitigated or accepted."
   impact 0.7
   tag severity: "high"
@@ -69,4 +69,3 @@ output is clean or risk is mitigated or accepted."
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "6.1.1"
 end
-

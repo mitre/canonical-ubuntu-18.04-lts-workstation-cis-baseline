@@ -22,7 +22,7 @@ disable it."
 
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create a file in the `/etc/modprobe.d/` directory ending in .conf
 
     Example: `vi /etc/modprobe.d/squashfs.conf`
@@ -52,4 +52,3 @@ disable it."
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.1.1.6"
 end
-

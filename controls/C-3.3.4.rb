@@ -39,4 +39,3 @@ malicious actions."
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "3.3.4"
 end
-

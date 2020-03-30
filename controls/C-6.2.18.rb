@@ -21,7 +21,7 @@ Effectively, the UID is shared, which is a security problem."
     done
     ```
   "
-  desc  "fix", "Based on the results of the audit script, establish unique user
+  desc "fix", "Based on the results of the audit script, establish unique user
 names for the users. File ownerships will automatically reflect the change as
 long as the users have unique UIDs."
   impact 0.7
@@ -37,4 +37,3 @@ long as the users have unique UIDs."
   tag cis_controls: ["16", "Rev_7"]
   tag cis_rid: "6.2.18"
 end
-

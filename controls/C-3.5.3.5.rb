@@ -40,7 +40,7 @@ outbound connections match site policy
     ip protocol icmp ct state established,related,new accept
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Configure nftables in accordance with site policy. The following commands
 will implement a policy to allow all outbound connections and all established
 connections:
@@ -76,4 +76,3 @@ new,related,established accept
   tag cis_controls: ["9.4", "Rev_7"]
   tag cis_rid: "3.5.3.5"
 end
-

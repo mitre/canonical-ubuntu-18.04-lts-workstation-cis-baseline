@@ -37,4 +37,3 @@ surface."
   tag cis_controls: ["9.2", "Rev_7"]
   tag cis_rid: "2.2.10"
 end
-

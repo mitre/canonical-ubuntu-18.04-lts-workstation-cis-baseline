@@ -43,4 +43,3 @@ actions."
   tag cis_controls: ["16.4", "Rev_7"]
   tag cis_rid: "6.1.7"
 end
-

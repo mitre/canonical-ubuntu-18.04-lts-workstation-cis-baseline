@@ -41,7 +41,7 @@ log in)."
     -w /var/log/btmp -p wa -k logins
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create a file in the `/etc/audit/rules.d/` directory ending in
 `.rules`
 
@@ -68,4 +68,3 @@ log in)."
   tag cis_controls: ["4.9", "16.11", "16.13", "Rev_7"]
   tag cis_rid: "4.1.8"
 end
-

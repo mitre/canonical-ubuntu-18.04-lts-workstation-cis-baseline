@@ -34,4 +34,3 @@ default to the `syslogd` service or lack logging instead."
   tag cis_controls: ["6.2", "6.3", "Rev_7"]
   tag cis_rid: "4.2.1.2"
 end
-

@@ -15,7 +15,7 @@ removable media partitions.
     # mount
     ```
   "
-  desc  "fix", "Edit the `/etc/fstab` file and add `nosuid` to the fourth field
+  desc "fix", "Edit the `/etc/fstab` file and add `nosuid` to the fourth field
 (mounting options) of all removable media partitions. Look for entries that
 have mount points that contain words such as floppy or cdrom. See the
 `fstab(5)` manual page for more information."
@@ -32,4 +32,3 @@ have mount points that contain words such as floppy or cdrom. See the
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.1.19"
 end
-

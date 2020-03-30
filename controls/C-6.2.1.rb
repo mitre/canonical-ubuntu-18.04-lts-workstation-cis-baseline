@@ -14,7 +14,7 @@ the account from being used by an unauthorized user."
 /etc/shadow
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     If any accounts in the `/etc/shadow` file do not have a password, run the
 following command to lock the account until it can be determined why it does
 not have a password:
@@ -39,4 +39,3 @@ being used for to determine if it needs to be forced off.
   tag cis_controls: ["4.4", "Rev_7"]
   tag cis_rid: "6.2.1"
 end
-

@@ -24,7 +24,7 @@ control "C-1.3.3" do
 
     \t` Is a file location that conforms with local site policy
   "
-  desc  "fix", "
+  desc "fix", "
     edit the file `/etc/sudoers` or a file in `/etc/sudoers.d/` and add the
 following line:
 
@@ -53,4 +53,3 @@ following line:
   tag cis_controls: ["6.3", "Rev_7"]
   tag cis_rid: "1.3.3"
 end
-

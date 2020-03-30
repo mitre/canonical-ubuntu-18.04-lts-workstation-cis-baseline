@@ -39,7 +39,7 @@ the output includes a file path
     -w /var/log/sudo.log -p wa -k actions
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create a file in the `/etc/audit/rules.d/` directory ending in
 `.rules` and add the following line:
 
@@ -70,4 +70,3 @@ the output includes a file path
   tag cis_controls: ["4.9", "Rev_7"]
   tag cis_rid: "4.1.15"
 end
-

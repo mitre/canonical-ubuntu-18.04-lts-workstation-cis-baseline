@@ -17,7 +17,7 @@ provides a clear audit trail in the event of a security incident"
     PermitRootLogin no
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -37,4 +37,3 @@ provides a clear audit trail in the event of a security incident"
   tag cis_controls: ["4.3", "Rev_7"]
   tag cis_rid: "5.2.10"
 end
-

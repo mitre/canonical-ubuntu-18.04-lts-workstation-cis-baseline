@@ -25,7 +25,7 @@ user home directory, the user must be the owner of the directory."
     done
     ```
   "
-  desc  "fix", "Change the ownership of any home directories that are not owned
+  desc "fix", "Change the ownership of any home directories that are not owned
 by the defined user to the correct user."
   impact 0.7
   tag severity: "high"
@@ -40,4 +40,3 @@ by the defined user to the correct user."
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "6.2.9"
 end
-

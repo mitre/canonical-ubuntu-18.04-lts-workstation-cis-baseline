@@ -18,7 +18,7 @@ or another authentication mechanism. If authentication is required, sudo will
 exit if the user's password is not entered within a configurable time limit.
 This limit is policy-specific.
   "
-  desc  "check", "
+  desc "check", "
     Verify that sudo in installed.
 
     Run the following command and inspect the output to confirm that sudo is
@@ -34,7 +34,7 @@ installed:
     # dpkg -s sudo-ldap
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Install sudo using the following command.
 
     ```
@@ -60,4 +60,3 @@ installed:
   tag cis_controls: ["4.3", "Rev_7"]
   tag cis_rid: "1.3.1"
 end
-

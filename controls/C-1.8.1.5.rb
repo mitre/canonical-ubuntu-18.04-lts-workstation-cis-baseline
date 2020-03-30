@@ -41,4 +41,3 @@ misleading information."
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.8.1.5"
 end
-

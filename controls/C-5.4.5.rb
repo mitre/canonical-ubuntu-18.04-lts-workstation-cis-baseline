@@ -28,7 +28,7 @@ less and at least one exists in each file.
     readonly TMOUT=900 ; export TMOUT
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/bashrc`, `/etc/profile` and `/etc/profile.d/*.sh` files (and
 the appropriate files for any other shell supported on your system) and add or
 edit any TMOUT parameters in accordance with site policy:
@@ -53,4 +53,3 @@ during runtime.
   tag cis_controls: ["16.11", "Rev_7"]
   tag cis_rid: "5.4.5"
 end
-

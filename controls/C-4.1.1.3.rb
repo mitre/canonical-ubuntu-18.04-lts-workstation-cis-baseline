@@ -18,7 +18,7 @@ parameter set:
 
     Nothing should be returned
   "
-  desc  "fix", "
+  desc "fix", "
     Edit `/etc/default/grub` and add audit=1 to GRUB_CMDLINE_LINUX:
 
     ```
@@ -44,4 +44,3 @@ parameter set:
   tag cis_controls: ["6.2", "6.3", "Rev_7"]
   tag cis_rid: "4.1.1.3"
 end
-

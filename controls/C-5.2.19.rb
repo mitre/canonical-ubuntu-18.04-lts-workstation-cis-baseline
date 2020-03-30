@@ -18,7 +18,7 @@ computer system."
     Banner /etc/issue.net
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -38,4 +38,3 @@ computer system."
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "5.2.19"
 end
-

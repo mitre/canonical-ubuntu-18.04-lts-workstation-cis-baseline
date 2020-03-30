@@ -15,7 +15,7 @@ misconfigurations or modified binaries."
     # dpkg -s aide
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Install AIDE using the appropriate package manager or manual installation:
 
     ```
@@ -44,4 +44,3 @@ documentation for options.
   tag cis_controls: ["14.9", "Rev_7"]
   tag cis_rid: "1.4.1"
 end
-

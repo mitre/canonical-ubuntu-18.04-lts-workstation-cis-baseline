@@ -22,7 +22,7 @@ the drivers not be installed to reduce the potential attack surface."
 
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create a file in the `/etc/modprobe.d/` directory ending in .conf
 
     Example: `vi /etc/modprobe.d/dccp.conf`
@@ -46,4 +46,3 @@ the drivers not be installed to reduce the potential attack surface."
   tag cis_controls: ["9.2", "Rev_7"]
   tag cis_rid: "3.4.1"
 end
-

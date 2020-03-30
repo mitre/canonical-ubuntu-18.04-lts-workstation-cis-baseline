@@ -26,7 +26,7 @@ unauthorized change has been made to scope of system administrator activity."
     -w /etc/sudoers.d/ -p wa -k scope
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create a file in the `/etc/audit/rules.d/` directory ending in
 `.rules`
 
@@ -52,4 +52,3 @@ unauthorized change has been made to scope of system administrator activity."
   tag cis_controls: ["4.8", "Rev_7"]
   tag cis_rid: "4.1.14"
 end
-

@@ -21,7 +21,7 @@ non-loopback address ( `127.0.0.1` or `::1` )
     # ss -lntu | grep -E ':25\\s' | grep -E -v '\\s(127.0.0.1|::1):25\\s'
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit `/etc/postfix/main.cf` and add the following line to the RECEIVING
 MAIL section. If the line already exists, change it to look like the line below:
 
@@ -48,4 +48,3 @@ MAIL section. If the line already exists, change it to look like the line below:
   tag cis_controls: ["9.2", "Rev_7"]
   tag cis_rid: "2.2.15"
 end
-

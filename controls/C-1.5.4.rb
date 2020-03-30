@@ -22,7 +22,7 @@ some distributions this is configured via the `PROMPT_FOR_CONFIRM` option in
     PROMPT_FOR_CONFIRM=\"no\"
     ```
   "
-  desc  "fix", "If interactive boot is available disable it."
+  desc "fix", "If interactive boot is available disable it."
   impact 0.7
   tag severity: "high"
   tag gtitle: nil
@@ -36,4 +36,3 @@ some distributions this is configured via the `PROMPT_FOR_CONFIRM` option in
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.5.4"
 end
-

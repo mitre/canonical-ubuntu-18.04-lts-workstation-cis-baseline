@@ -19,7 +19,7 @@ create and have access to files with the first GID for that group in
     done
     ```
   "
-  desc  "fix", "Based on the results of the audit script, establish unique
+  desc "fix", "Based on the results of the audit script, establish unique
 names for the user groups. File group ownerships will automatically reflect the
 change as long as the groups have unique GIDs."
   impact 0.7
@@ -35,4 +35,3 @@ change as long as the groups have unique GIDs."
   tag cis_controls: ["16", "Rev_7"]
   tag cis_rid: "6.2.19"
 end
-

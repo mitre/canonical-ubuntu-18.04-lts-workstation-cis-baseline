@@ -18,7 +18,7 @@ forwarding is disabled, users can always install their own forwarders."
     X11Forwarding no
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -38,4 +38,3 @@ forwarding is disabled, users can always install their own forwarders."
   tag cis_controls: ["9.2", "Rev_7"]
   tag cis_rid: "5.2.6"
 end
-

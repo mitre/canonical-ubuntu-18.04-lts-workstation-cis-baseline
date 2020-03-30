@@ -20,7 +20,7 @@ not properly managed."
     done
     ```
   "
-  desc  "fix", "Analyze the output of the Audit step above and perform the
+  desc "fix", "Analyze the output of the Audit step above and perform the
 appropriate action to correct any discrepancies found."
   impact 0.7
   tag severity: "high"
@@ -35,4 +35,3 @@ appropriate action to correct any discrepancies found."
   tag cis_controls: ["16.6", "16.7", "16.8", "Rev_7"]
   tag cis_rid: "6.2.15"
 end
-

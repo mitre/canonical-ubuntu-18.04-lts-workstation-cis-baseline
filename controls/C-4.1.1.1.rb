@@ -34,4 +34,3 @@ access to their system is occurring."
   tag cis_controls: ["6.2", "6.3", "Rev_7"]
   tag cis_rid: "4.1.1.1"
 end
-

@@ -36,7 +36,7 @@ logged in."
 's/\"//g'))\" /etc/motd
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/motd` file with the appropriate contents according to your
 site policy, remove any instances of `\\m` , `\
 ` , `\\s` , `\\v` or references to the `OS platform`
@@ -64,4 +64,3 @@ site policy, remove any instances of `\\m` , `\
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.8.1.1"
 end
-

@@ -42,4 +42,3 @@ and `Access` is `640` or more restrictive:
   tag cis_controls: ["16.4", "Rev_7"]
   tag cis_rid: "6.1.9"
 end
-

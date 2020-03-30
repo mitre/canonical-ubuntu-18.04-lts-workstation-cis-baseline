@@ -13,7 +13,7 @@ defined."
     # cat /etc/securetty
     ```
   "
-  desc  "fix", "Remove entries for any consoles that are not in a physically
+  desc "fix", "Remove entries for any consoles that are not in a physically
 secure location."
   impact 0.7
   tag severity: "high"
@@ -28,4 +28,3 @@ secure location."
   tag cis_controls: ["4.3", "Rev_7"]
   tag cis_rid: "5.5"
 end
-

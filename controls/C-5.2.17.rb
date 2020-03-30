@@ -22,7 +22,7 @@ between 1 and 60:
     LoginGraceTime 60
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -42,4 +42,3 @@ between 1 and 60:
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "5.2.17"
 end
-

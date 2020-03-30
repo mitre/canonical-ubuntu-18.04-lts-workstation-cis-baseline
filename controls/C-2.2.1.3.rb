@@ -54,4 +54,3 @@ stored in `/etc/init.d` or `/etc/systemd`.
   tag cis_controls: ["6.1", "Rev_7"]
   tag cis_rid: "2.2.1.3"
 end
-

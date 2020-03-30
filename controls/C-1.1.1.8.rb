@@ -35,7 +35,7 @@ ensure that the `FAT` filesystem is only used where appropriate
 
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create a file in the /etc/modprobe.d/ directory ending in .conf
 
     Example: `vi /etc/modprobe.d/vfat.conf`
@@ -63,4 +63,3 @@ ensure that the `FAT` filesystem is only used where appropriate
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.1.1.8"
 end
-

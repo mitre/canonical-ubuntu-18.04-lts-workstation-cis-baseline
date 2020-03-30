@@ -22,7 +22,7 @@ more and included in all results:
     password required pam_pwhistory.so remember=5
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/pam.d/common-password` file to include the `remember` option
 and conform to site policy as shown:
 
@@ -43,4 +43,3 @@ and conform to site policy as shown:
   tag cis_controls: ["16", "Rev_7"]
   tag cis_rid: "5.3.3"
 end
-

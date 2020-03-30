@@ -16,7 +16,7 @@ needed information:
     # dpkg -s telnet
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Uninstall `telnet`:
 
     ```
@@ -36,4 +36,3 @@ needed information:
   tag cis_controls: ["4.5", "Rev_7"]
   tag cis_rid: "2.3.4"
 end
-

@@ -42,7 +42,7 @@ attempting to hide their activities or compromise additional accounts."
     -w /etc/security/opasswd -p wa -k identity
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create a file in the `/etc/audit/rules.d/` directory ending in
 `.rules`
 
@@ -71,4 +71,3 @@ attempting to hide their activities or compromise additional accounts."
   tag cis_controls: ["4.8", "Rev_7"]
   tag cis_rid: "4.1.4"
 end
-

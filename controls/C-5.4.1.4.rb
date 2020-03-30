@@ -56,4 +56,3 @@ that all users' INACTIVE conforms to site policy (no more than 30 days):
   tag cis_controls: ["4.4", "Rev_7"]
   tag cis_rid: "5.4.1.4"
 end
-

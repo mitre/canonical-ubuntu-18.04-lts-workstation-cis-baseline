@@ -26,7 +26,7 @@ the listed weak Key Exchange algorithms
     diffie-hellman-group-exchange-sha1
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the /etc/ssh/sshd_config file add/modify the KexAlgorithms line to
 contain a comma separated list of the site approved key exchange algorithms
 
@@ -50,4 +50,3 @@ curve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,dif
   tag cis_controls: ["14.4", "Rev_7"]
   tag cis_rid: "5.2.15"
 end
-

@@ -16,7 +16,7 @@ executable binaries from `/var/tmp` ."
     # mount | grep -E '\\s/var/tmp\\s' | grep -v noexec
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/fstab` file and add `noexec` to the fourth field (mounting
 options) for the `/var/tmp` partition. See the `fstab(5)` manual page for more
 information.
@@ -40,4 +40,3 @@ information.
   tag cis_controls: ["2.6", "Rev_7"]
   tag cis_rid: "1.1.10"
 end
-

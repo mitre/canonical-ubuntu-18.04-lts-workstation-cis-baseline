@@ -17,7 +17,7 @@ less, or matches site policy:
     maxsessions 4
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -37,4 +37,3 @@ less, or matches site policy:
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "5.2.23"
 end
-

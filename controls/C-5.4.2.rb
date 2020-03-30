@@ -52,4 +52,3 @@ account from potentially being used to run any commands."
   tag cis_controls: ["16", "Rev_7"]
   tag cis_rid: "5.4.2"
 end
-

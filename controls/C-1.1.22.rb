@@ -67,4 +67,3 @@ disabled
   tag cis_controls: ["8.4", "8.5", "Rev_7"]
   tag cis_rid: "1.1.22"
 end
-

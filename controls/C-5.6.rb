@@ -34,7 +34,7 @@ contains no users:
 
     There should be no users listed after the Group ID field.
   "
-  desc  "fix", "
+  desc "fix", "
     Create an empty group that will be specified for use of the `su` command.
 The group should be named according to site policy.
 
@@ -62,4 +62,3 @@ group:
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "5.6"
 end
-

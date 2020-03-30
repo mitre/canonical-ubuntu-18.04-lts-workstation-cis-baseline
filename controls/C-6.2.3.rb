@@ -20,7 +20,7 @@ files or have local environment variables set."
     done
     ```
   "
-  desc  "fix", "If any users' home directories do not exist, create them and
+  desc "fix", "If any users' home directories do not exist, create them and
 make sure the respective user owns the directory. Users without an assigned
 home directory should be removed or assigned a home directory as appropriate."
   impact 0.7
@@ -36,4 +36,3 @@ home directory should be removed or assigned a home directory as appropriate."
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "6.2.3"
 end
-

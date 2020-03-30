@@ -34,7 +34,7 @@ attacker can gain superuser access by forcing an administrator operating as
     done
     ```
   "
-  desc  "fix", "Correct or justify any items discovered in the Audit step."
+  desc "fix", "Correct or justify any items discovered in the Audit step."
   impact 0.7
   tag severity: "high"
   tag gtitle: nil
@@ -48,4 +48,3 @@ attacker can gain superuser access by forcing an administrator operating as
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "6.2.7"
 end
-

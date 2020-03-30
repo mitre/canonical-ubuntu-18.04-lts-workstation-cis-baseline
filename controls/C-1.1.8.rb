@@ -16,7 +16,7 @@ block or character special devices in `/var/tmp` ."
     # mount | grep -E '\\s/var/tmp\\s' | grep -v nodev
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/fstab` file and add `nodev` to the fourth field (mounting
 options) for the `/var/tmp` partition. See the `fstab(5)` manual page for more
 information.
@@ -40,4 +40,3 @@ information.
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.1.8"
 end
-

@@ -38,4 +38,3 @@ to this system.
   tag cis_controls: ["9.4", "Rev_7"]
   tag cis_rid: "3.3.2"
 end
-

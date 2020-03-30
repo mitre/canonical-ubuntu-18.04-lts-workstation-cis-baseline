@@ -19,7 +19,7 @@ less:
     MaxAuthTries 4
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -39,4 +39,3 @@ less:
   tag cis_controls: ["16.13", "Rev_7"]
   tag cis_rid: "5.2.7"
 end
-

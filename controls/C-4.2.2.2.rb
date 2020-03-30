@@ -18,7 +18,7 @@ compressed:
     Compress=yes
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/systemd/journald.conf` file and add the following line:
 
     ```
@@ -38,4 +38,3 @@ compressed:
   tag cis_controls: ["6.4", "Rev_7"]
   tag cis_rid: "4.2.2.2"
 end
-

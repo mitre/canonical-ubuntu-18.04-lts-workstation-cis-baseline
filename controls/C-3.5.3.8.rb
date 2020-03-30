@@ -97,7 +97,7 @@ packets)
     Note: Review the output base chain to ensure that it follows local site
 policy.
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/sysconfig/nftables.conf` file and un-comment or add a line
 with `include ` for each nftables file you want included in the nftables
 ruleset on boot
@@ -127,4 +127,3 @@ ruleset on boot
   tag cis_controls: ["9.4", "Rev_7"]
   tag cis_rid: "3.5.3.8"
 end
-

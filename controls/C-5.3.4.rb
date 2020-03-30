@@ -29,7 +29,7 @@ results:
     password [success=1 default=ignore] pam_unix.so obscure sha512
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/pam.d/common-password` file to include the `sha512` option
 for `pam_unix.so` as shown:
 
@@ -50,4 +50,3 @@ for `pam_unix.so` as shown:
   tag cis_controls: ["16.4", "Rev_7"]
   tag cis_rid: "5.3.4"
 end
-

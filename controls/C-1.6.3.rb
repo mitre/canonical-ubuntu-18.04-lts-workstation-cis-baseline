@@ -42,4 +42,3 @@ installation:
   tag cis_controls: ["14.9", "Rev_7"]
   tag cis_rid: "1.6.3"
 end
-

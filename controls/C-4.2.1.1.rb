@@ -19,7 +19,7 @@ to provide the needed information:
     # dpkg -s rsyslog
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Install rsyslog:
 
     ```
@@ -39,4 +39,3 @@ to provide the needed information:
   tag cis_controls: ["6.2", "6.3", "Rev_7"]
   tag cis_rid: "4.2.1.1"
 end
-

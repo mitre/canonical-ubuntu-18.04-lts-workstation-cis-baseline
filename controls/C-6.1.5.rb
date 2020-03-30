@@ -40,4 +40,3 @@ information is used with many non-privileged programs."
   tag cis_controls: ["16.4", "Rev_7"]
   tag cis_rid: "6.1.5"
 end
-

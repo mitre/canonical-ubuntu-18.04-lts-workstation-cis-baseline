@@ -16,7 +16,7 @@ access to the su command is restricted."
     root
     ```
   "
-  desc  "fix", "Remove any users other than `root` with UID `0` or assign them
+  desc "fix", "Remove any users other than `root` with UID `0` or assign them
 a new UID if appropriate."
   impact 0.7
   tag severity: "high"
@@ -31,4 +31,3 @@ a new UID if appropriate."
   tag cis_controls: ["4.6", "Rev_7"]
   tag cis_rid: "6.2.6"
 end
-

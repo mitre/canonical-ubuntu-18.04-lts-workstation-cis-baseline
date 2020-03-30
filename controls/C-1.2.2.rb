@@ -14,7 +14,7 @@ installation of malware on the system."
     # apt-key list
     ```
   "
-  desc  "fix", "Update your package manager GPG keys in accordance with site
+  desc "fix", "Update your package manager GPG keys in accordance with site
 policy."
   impact 0.7
   tag severity: "high"
@@ -29,4 +29,3 @@ policy."
   tag cis_controls: ["3.4", "3.5", "Rev_7"]
   tag cis_rid: "1.2.2"
 end
-

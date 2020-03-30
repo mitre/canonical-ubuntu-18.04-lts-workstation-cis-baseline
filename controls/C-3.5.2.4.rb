@@ -13,7 +13,7 @@ match site policy:
     # ufw status numbered
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Configure ufw in accordance with site policy. The following commands will
 implement a policy to allow all outbound connections on all interfaces:
 
@@ -34,4 +34,3 @@ implement a policy to allow all outbound connections on all interfaces:
   tag cis_controls: ["9.4", "Rev_7"]
   tag cis_rid: "3.5.2.4"
 end
-

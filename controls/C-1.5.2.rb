@@ -24,7 +24,7 @@ turning off AppArmor at boot time)."
     password_pbkdf2
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Create an encrypted password with `grub-mkpasswd-pbkdf2`:
 
     ```
@@ -53,4 +53,3 @@ turning off AppArmor at boot time)."
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.5.2"
 end
-

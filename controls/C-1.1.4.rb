@@ -16,7 +16,7 @@ temporary file storage, set this option to ensure that users cannot create
     # mount | grep -E '\\s/tmp\\s' | grep -v nosuid
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/fstab` file and add `nosuid` to the fourth field (mounting
 options) for the `/tmp` partition. See the `fstab(5)` manual page for more
 information.
@@ -52,4 +52,3 @@ to the `/tmp` mount options:
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.1.4"
 end
-

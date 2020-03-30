@@ -49,4 +49,3 @@ set permissions on `/etc/gshadow-` :
   tag cis_controls: ["16.4", "Rev_7"]
   tag cis_rid: "6.1.3"
 end
-

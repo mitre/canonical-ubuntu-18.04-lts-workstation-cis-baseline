@@ -35,4 +35,3 @@ chmod g-w,o-rwx \"{}\" +
   tag cis_controls: ["13", "Rev_7"]
   tag cis_rid: "4.2.3"
 end
-

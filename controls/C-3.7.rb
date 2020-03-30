@@ -14,7 +14,7 @@ verify no lines should be returned.
     # grep \"^\\s*linux\" /boot/grub/grub.cfg | grep -v \"ipv6.disable=1\"
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit `/etc/default/grub` and add `ipv6.disable=1` to the
 `GRUB_CMDLINE_LINUX` parameters:
 
@@ -41,4 +41,3 @@ verify no lines should be returned.
   tag cis_controls: ["3", "11", "9.1", "9.4", "Rev_6"]
   tag cis_rid: "3.7"
 end
-

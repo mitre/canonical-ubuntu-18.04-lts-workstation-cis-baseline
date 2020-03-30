@@ -24,7 +24,7 @@ attack surface."
 
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create a file in the `/etc/modprobe.d/` directory ending in .conf
 
     Example: `vi /etc/modprobe.d/sctp.conf`
@@ -48,4 +48,3 @@ attack surface."
   tag cis_controls: ["9.2", "Rev_7"]
   tag cis_rid: "3.4.2"
 end
-

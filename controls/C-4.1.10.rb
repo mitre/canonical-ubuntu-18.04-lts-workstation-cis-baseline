@@ -135,4 +135,3 @@ ftruncate -F exit=-EPERM -F auid>=1000 -F auid!=4294967295 -k access
   tag cis_controls: ["14.9", "Rev_7"]
   tag cis_rid: "4.1.10"
 end
-

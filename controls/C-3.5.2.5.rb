@@ -74,4 +74,3 @@ establish a proper rule for accepting inbound connections:
   tag cis_controls: ["9.4", "Rev_7"]
   tag cis_rid: "3.5.2.5"
 end
-

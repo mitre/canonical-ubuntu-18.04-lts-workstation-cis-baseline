@@ -67,7 +67,7 @@ via SSH will help ensure that only authorized users access the system."
     DenyGroups
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set one or more of the parameter as
 follows:
 
@@ -100,4 +100,3 @@ follows:
   tag cis_controls: ["4.3", "Rev_7"]
   tag cis_rid: "5.2.18"
 end
-

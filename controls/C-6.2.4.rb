@@ -14,7 +14,7 @@ privileged access on the system."
     # grep '^\\+:' /etc/shadow
     ```
   "
-  desc  "fix", "Remove any legacy '+' entries from `/etc/shadow` if they exist."
+  desc "fix", "Remove any legacy '+' entries from `/etc/shadow` if they exist."
   impact 0.7
   tag severity: "high"
   tag gtitle: nil
@@ -28,4 +28,3 @@ privileged access on the system."
   tag cis_controls: ["16.9", "16.2", "Rev_6"]
   tag cis_rid: "6.2.4"
 end
-

@@ -66,4 +66,3 @@ file:
   tag cis_controls: ["6.2", "6.3", "Rev_7"]
   tag cis_rid: "3.2.4"
 end
-

@@ -71,4 +71,3 @@ to run the aide check.
   tag cis_controls: ["14.9", "Rev_7"]
   tag cis_rid: "1.4.2"
 end
-

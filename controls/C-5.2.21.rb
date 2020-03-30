@@ -27,7 +27,7 @@ stolen data from the target network
     AllowTcpForwarding no
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the /etc/ssh/sshd_config file to set the parameter as follows:
 
     ```
@@ -47,4 +47,3 @@ stolen data from the target network
   tag cis_controls: ["9.2", "Rev_7"]
   tag cis_rid: "5.2.21"
 end
-

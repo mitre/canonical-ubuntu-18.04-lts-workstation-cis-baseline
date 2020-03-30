@@ -28,7 +28,7 @@ that logs are sent to a central host.
 
     Output should include either the FQDN or the IP of the remote loghost
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/rsyslog.conf` and `/etc/rsyslog.d/*.conf` files and add one
 of the following lines:
 
@@ -82,4 +82,3 @@ protocol=\"tcp\"
   tag cis_controls: ["6.6", "6.8", "Rev_7"]
   tag cis_rid: "4.2.1.5"
 end
-

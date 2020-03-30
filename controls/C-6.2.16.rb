@@ -21,7 +21,7 @@ to ensure appropriate access protections."
     done
     ```
   "
-  desc  "fix", "Based on the results of the audit script, establish unique UIDs
+  desc "fix", "Based on the results of the audit script, establish unique UIDs
 and review all files owned by the shared UIDs to determine which UID they are
 supposed to belong to."
   impact 0.7
@@ -37,4 +37,3 @@ supposed to belong to."
   tag cis_controls: ["16", "Rev_7"]
   tag cis_rid: "6.2.16"
 end
-

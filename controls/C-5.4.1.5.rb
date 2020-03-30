@@ -14,7 +14,7 @@ then they could bypass any set password expiration."
 -f2)\" +%s) > $(date +%s) ]] & done
     ```
   "
-  desc  "fix", "Investigate any users with a password change date in the future
+  desc "fix", "Investigate any users with a password change date in the future
 and correct them. Locking the account, expiring the password, or resetting the
 password manually may be appropriate."
   impact 0.7
@@ -30,4 +30,3 @@ password manually may be appropriate."
   tag cis_controls: ["4.4", "Rev_7"]
   tag cis_rid: "5.4.1.5"
 end
-

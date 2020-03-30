@@ -15,7 +15,7 @@ established connections match site policy:
     # iptables -L -v -n
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Configure iptables in accordance with site policy. The following commands
 will implement a policy to allow all outbound connections and all established
 connections:
@@ -42,4 +42,3 @@ connections:
   tag cis_controls: ["9.4", "Rev_7"]
   tag cis_rid: "3.5.4.1.3"
 end
-

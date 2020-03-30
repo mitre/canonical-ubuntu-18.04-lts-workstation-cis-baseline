@@ -45,4 +45,3 @@ system and could provide them a way to gain unauthorized privileged access."
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "5.1.2"
 end
-

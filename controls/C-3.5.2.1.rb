@@ -47,4 +47,3 @@ ufw to protect the system"
   tag cis_controls: ["9.4", "Rev_7"]
   tag cis_rid: "3.5.2.1"
 end
-

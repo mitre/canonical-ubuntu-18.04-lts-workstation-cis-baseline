@@ -19,7 +19,7 @@ needed information:
     dpkg -s nis
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Uninstall `nis`:
 
     ```
@@ -39,4 +39,3 @@ needed information:
   tag cis_controls: ["2.6", "Rev_7"]
   tag cis_rid: "2.3.1"
 end
-

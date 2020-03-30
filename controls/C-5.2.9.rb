@@ -18,7 +18,7 @@ files in SSH provides an additional layer of protection."
     HostbasedAuthentication no
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -38,4 +38,3 @@ files in SSH provides an additional layer of protection."
   tag cis_controls: ["16.3", "Rev_7"]
   tag cis_rid: "5.2.9"
 end
-

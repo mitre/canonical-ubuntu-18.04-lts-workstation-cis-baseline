@@ -16,7 +16,7 @@ v2."
 
     Nothing should be returned
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -36,4 +36,3 @@ v2."
   tag cis_controls: ["14.4", "4.5", "Rev_7"]
   tag cis_rid: "5.2.4"
 end
-

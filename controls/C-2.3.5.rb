@@ -16,7 +16,7 @@ provide the needed information:
     # dpkg -s ldap-utils
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Uninstall `ldap-utils`:
 
     ```
@@ -36,4 +36,3 @@ provide the needed information:
   tag cis_controls: ["2.6", "Rev_7"]
   tag cis_rid: "2.3.5"
 end
-

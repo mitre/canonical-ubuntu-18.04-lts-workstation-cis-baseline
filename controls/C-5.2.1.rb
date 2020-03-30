@@ -41,4 +41,3 @@ from unauthorized changes by non-privileged users."
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "5.2.1"
 end
-

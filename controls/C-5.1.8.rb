@@ -82,4 +82,3 @@ and create and set permissions and ownership for `/etc/cron.allow` and
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "5.1.8"
 end
-

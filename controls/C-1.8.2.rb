@@ -18,7 +18,7 @@ are in place."
     banner-message-text=''
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create the file `/etc/gdm3/greeter.dconf-defaults` and add the
 following:
 
@@ -42,4 +42,3 @@ and reported.'
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.8.2"
 end
-

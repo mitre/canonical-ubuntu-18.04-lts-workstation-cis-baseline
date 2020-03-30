@@ -70,4 +70,3 @@ for them and then be restarted.
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "1.7.1.3"
 end
-

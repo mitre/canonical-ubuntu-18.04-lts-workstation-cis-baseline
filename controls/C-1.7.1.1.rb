@@ -12,7 +12,7 @@ the default Discretionary Access Control system will be available."
     # dpkg -s apparmor apparmor-utils
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Install Apparmor.
 
     ```
@@ -32,4 +32,3 @@ the default Discretionary Access Control system will be available."
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "1.7.1.1"
 end
-

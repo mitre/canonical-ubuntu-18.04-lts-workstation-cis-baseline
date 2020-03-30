@@ -38,7 +38,7 @@ and 300 and `ClientAliveCountMax` is 3 or less:
     ClientAliveCountMax 0
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameters according to
 site policy:
 
@@ -61,4 +61,3 @@ site policy:
   tag cis_controls: ["16.11", "Rev_7"]
   tag cis_rid: "5.2.16"
 end
-

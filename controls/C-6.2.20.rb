@@ -22,7 +22,7 @@ additional user accounts."
     # awk -F: '($4 == \"\") { print }' /etc/passwd
     ```
   "
-  desc  "fix", "Remove all users from the shadow group, and change the primary
+  desc "fix", "Remove all users from the shadow group, and change the primary
 group of any users with shadow as their primary group."
   impact 0.7
   tag severity: "high"
@@ -37,4 +37,3 @@ group of any users with shadow as their primary group."
   tag cis_controls: ["14.6", "Rev_7"]
   tag cis_rid: "6.2.20"
 end
-

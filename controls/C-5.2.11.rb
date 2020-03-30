@@ -15,7 +15,7 @@ empty password reduces the probability of unauthorized access to the system"
     PermitEmptyPasswords no
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit the `/etc/ssh/sshd_config` file to set the parameter as follows:
 
     ```
@@ -35,4 +35,3 @@ empty password reduces the probability of unauthorized access to the system"
   tag cis_controls: ["16.3", "Rev_7"]
   tag cis_rid: "5.2.11"
 end
-

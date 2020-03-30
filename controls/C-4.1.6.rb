@@ -35,7 +35,7 @@ security contexts, leading to a compromise of the system."
     -w /etc/apparmor.d/ -p wa -k MAC-policy
     ```
   "
-  desc  "fix", "
+  desc "fix", "
     Edit or create a file in the `/etc/audit/rules.d/` directory ending in
 `.rules`
 
@@ -61,4 +61,3 @@ security contexts, leading to a compromise of the system."
   tag cis_controls: ["5.5", "Rev_7"]
   tag cis_rid: "4.1.6"
 end
-

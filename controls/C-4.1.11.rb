@@ -39,7 +39,7 @@ the output of `auditctl -l`.
 
     NOTE: The `.rules` file output will be `auid!=-1` not `auid!=4294967295`
   "
-  desc  "fix", "
+  desc "fix", "
     To remediate this issue, the system administrator will have to execute a
 find command to locate all the privileged programs and then add an audit line
 for each one of them. The audit parameters associated with this are as follows:
@@ -85,4 +85,3 @@ auid!=4294967295 \\
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "4.1.11"
 end
-

@@ -166,4 +166,3 @@ removexattr -S lremovexattr -S fremovexattr -F auid>=1000 -F auid!=4294967295
   tag cis_controls: ["5.5", "Rev_7"]
   tag cis_rid: "4.1.9"
 end
-

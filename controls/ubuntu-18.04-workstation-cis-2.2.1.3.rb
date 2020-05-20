@@ -55,22 +55,28 @@ stored in `/etc/init.d` or `/etc/systemd`.
   tag cis_rid: "2.2.1.3"
 
   if package('chrony').installed?
-    describe service('service_name') do
+    describe service('chrony') do
       it { should be_enabled }
       it { should be_running }
     end
-    describe service('service_name').params do
-      its('UnitFileState') { should eq 'enabled' }
+
+    Number_Of_Servers_Configured_in_Chrony = command('grep -E "^(server|pool)" /etc/chrony/chrony.conf| wc -l').stdout.strip.split
+
+    describe Number_Of_Servers_Configured_in_Chrony do
+      its('length') { should be > 0 }
     end
 
-    #describe command("sudo -u #{dconf_user} dconf read /org/gnome/login-screen/enable-smartcard-authentication") do
-    #  its('stdout.strip') { should eq multifactor_enabled.to_s }
-    #end
-else
-  impact 0.0
-  describe "The chrony package is not installed" do
-    skip "The chrony package is not installed, this control is Not Applicable."
+    describe processes('chronyd') do
+      it { should exist }
+      its('users') { should include '_chrony'}
+    end
+
+  else
+    impact 0.0
+    describe "The chrony package is not installed" do
+      skip "The chrony package is not installed, this control is Not Applicable."
+    end
   end
-end
 
 end
+

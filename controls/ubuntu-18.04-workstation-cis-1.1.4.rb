@@ -51,4 +51,8 @@ to the `/tmp` mount options:
   tag cis_level: 3
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.1.4"
+
+  describe mount('/tmp') do
+    its('options') { should  include 'nosuid' }
+  end
 end

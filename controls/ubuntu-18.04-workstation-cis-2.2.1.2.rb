@@ -110,4 +110,22 @@ lines in accordance with local site policy
   tag cis_level: 3
   tag cis_controls: ["6.1", "Rev_7"]
   tag cis_rid: "2.2.1.2"
+
+  describe parse_config_file('/etc/systemd/timesyncd.conf') do
+    its('NTP') { should match(%r{\w+\.\w+}) }
+    its('FallbackNTP') { should match(%r{\w+\.\w+}) }
+    its('RootDistanceMaxSec') { should cmp 1 }
+  end
+  describe parse_config_file('/etc/systemd/timesyncd.conf') do
+    its('FallbackNTP') { should match(%r{\w+\.\w+}) }
+  end
+  describe parse_config_file('/etc/systemd/timesyncd.conf') do
+    its('RootDistanceMaxSec') { should cmp '1' }
+  end
+
+
 end
+
+
+
+

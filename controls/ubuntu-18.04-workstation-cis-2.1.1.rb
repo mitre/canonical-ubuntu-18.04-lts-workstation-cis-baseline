@@ -43,4 +43,10 @@ available
   tag cis_level: 3
   tag cis_controls: ["9.2", "Rev_7"]
   tag cis_rid: "2.1.1"
+
+  describe package("xinetd") do
+    it { should_not be_installed }
+  end
+
 end
+

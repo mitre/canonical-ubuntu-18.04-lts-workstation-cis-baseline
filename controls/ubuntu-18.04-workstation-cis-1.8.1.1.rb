@@ -63,4 +63,10 @@ site policy, remove any instances of `\\m` , `\
   tag cis_level: 3
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.8.1.1"
+
+  describe command("grep '/etc/os-release' /etc/motd").stdout.strip.split("\n") do
+    its('length') { should be < 1 }
+  end
+
 end
+

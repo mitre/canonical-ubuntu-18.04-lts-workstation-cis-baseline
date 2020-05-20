@@ -49,4 +49,10 @@ file:
   tag cis_level: 3
   tag cis_controls: ["8.3", "Rev_7"]
   tag cis_rid: "1.6.2"
+
+  describe kernel_parameter('kernel.randomize_va_space') do
+    its('value') { should cmp 2 }
+  end
+
 end
+

@@ -37,4 +37,8 @@ information.
   tag cis_level: 3
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.1.14"
+
+  describe mount('/home') do
+    its('options') { should include 'nodev' }
+  end
 end

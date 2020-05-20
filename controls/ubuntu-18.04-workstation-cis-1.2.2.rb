@@ -28,4 +28,13 @@ policy."
   tag cis_level: 3
   tag cis_controls: ["3.4", "3.5", "Rev_7"]
   tag cis_rid: "1.2.2"
+
+  describe command('apt-key list').stdout.strip.split("\n") do
+    its('length') { should be > 1 }
+    skip "Run the following command and verify GPG keys are configured correctly for your package manager -
+ ```apt-cache policy```."
+  end
+
 end
+
+

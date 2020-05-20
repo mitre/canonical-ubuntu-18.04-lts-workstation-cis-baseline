@@ -52,4 +52,13 @@ turning off AppArmor at boot time)."
   tag cis_level: 3
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "1.5.2"
+
+  describe file('/boot/grub/grub.cfg') do
+    its('content') { should match '^\\s*superusers\\s*=' }
+  end
+  describe file('/boot/grub/grub.cfg') do
+    its('content') { should match '^\\s*password_pbkdf2' }
+  end
+
 end
+

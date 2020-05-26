@@ -37,4 +37,16 @@ to this system.
   tag cis_level: 3
   tag cis_controls: ["9.4", "Rev_7"]
   tag cis_rid: "3.3.2"
+
+  if file('/etc/hosts.allow').exist?
+    my_hosts_allow = command('cat /etc/hosts.allow').stdout.strip
+    describe "Contents of /etc/hosts.allow shall be evaluated manually " do
+      skip " Contents of /etc/hosts.allow shall be evaluated manually.\n #{my_hosts_allow} "
+    end
+  else
+    describe file('/etc/hosts.allow') do
+      it { should exist }
+    end
+  end
+
 end

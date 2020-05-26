@@ -62,4 +62,13 @@ file:
   tag cis_level: 3
   tag cis_controls: ["5.1", "Rev_7"]
   tag cis_rid: "3.1.1"
+
+  describe kernel_parameter('net.ipv4.conf.all.send_redirects') do
+    its('value') { should cmp '0' }
+  end
+
+  describe kernel_parameter('net.ipv4.conf.default.send_redirects') do
+    its('value') { should cmp '0' }
+  end
+
 end

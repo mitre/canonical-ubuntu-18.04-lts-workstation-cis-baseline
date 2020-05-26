@@ -42,4 +42,9 @@ services that can support TCP Wrappers, use it."
   tag cis_level: 3
   tag cis_controls: ["9.4", "Rev_7"]
   tag cis_rid: "3.3.1"
+
+  describe package('tcpd') do
+    it { should be_installed }
+  end
+
 end
